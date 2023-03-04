@@ -1,4 +1,4 @@
-# Project-Keystone
+# Project Keystone
 
 <p>Project Keystone is a 2D platform game. Such platform games are the type of game that players prefer to distract themselves or spend time. The game will be developed with the C# codding language using the Unity game engine.</p>
 
