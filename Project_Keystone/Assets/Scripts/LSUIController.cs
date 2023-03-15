@@ -61,28 +61,115 @@ public class LSUIController : MonoBehaviour
     }
 
     public void ShowInfo(MapPoint levelInfo)
-    { 
-         levelName.text = levelInfo.levelName;
+    {
+        string variableValue = "Turkish";
 
-         gemsFound.text = "FOUND: " + levelInfo.gemsCollected;
-         gemsTarget.text = "IN LEVEL: " + levelInfo.totalGems;
+        if (variableValue == "Turkish")
+        {
+            ShowInfoTR(levelInfo);
+        }
+        
+        else
+        {
+            ShowInfoEN(levelInfo);
+        }
+    }
 
-         timeTarget.text = "TARGET: " + levelInfo.targetTime + "s";
+    public void ShowInfoEN(MapPoint levelInfo)
+    {
+        levelName.text = levelInfo.levelName;
 
-         if (levelInfo.bestTime == 0)
-         {
-           bestTime.text = "BEST: ----";
-         }
-         else
-         {
-           bestTime.text = "BEST: " + levelInfo.bestTime.ToString("F2") + "s";
-         }
+        gemsFound.text = "FOUND: " + levelInfo.gemsCollected;
+        gemsTarget.text = "IN LEVEL: " + levelInfo.totalGems;
 
-         levelInfoPanel.SetActive(true);
+        timeTarget.text = "TARGET: " + levelInfo.targetTime + "s";
+
+        if (levelInfo.bestTime == 0)
+        {
+            bestTime.text = "BEST: ----";
+        }
+        else
+        {
+            bestTime.text = "BEST: " + levelInfo.bestTime.ToString("F2") + "s";
+        }
+
+        levelInfoPanel.SetActive(true);
+    }
+
+    public void ShowInfoTR(MapPoint levelInfo)
+    {
+        string found = "BULUNDU: ",
+        inLevel = "SEVIYE ICINDE: ",
+        target = "HEDEF: ",
+        best0 = "EN IYI: ----",
+        best1 = "EN IYI: ",
+        sn = "sn";
+
+        string levelText = levelInfo.levelName;
+
+        if (levelText == "1 - The Beginning")
+        {
+            levelName.text = "1 - Baslangic";
+        }
+        else if (levelText == "2 - High Jump")
+        {
+            levelName.text = "2 - Yuksek Atlayis";
+        }
+        else if (levelText == "3 - More Jumping")
+        {
+            levelName.text = "3 - Daha Fazla Zipla";
+        }
+        else if (levelText == "4 - Zero Point")
+        {
+            levelName.text = "4 - Sifir Noktasi";
+        }
+        else if (levelText == "5 - You Better Watch Out")
+        {
+            levelName.text = "5 - Dikkat Etsen Iyi Olur";
+        }
+        else if (levelText == "6 - Top Secret")
+        {
+            levelName.text = "6 - Cok Gizli";
+        }
+        else if (levelText == "7 - Splashdown")
+        {
+            levelName.text = "7 - Sicrama";
+        }
+        else if (levelText == "8 - Darkness Rises")
+        {
+            levelName.text = "8 - Karanlik Yukseliyor";
+        }
+        else if (levelText == "9 - Out of Time")
+        {
+            levelName.text = "9 - Zaman Doldu";
+        }
+        else if (levelText == "10 - THE END")
+        {
+            levelName.text = "10 - SON";
+        }
+
+        gemsFound.text = found + levelInfo.gemsCollected;
+        gemsTarget.text = inLevel + levelInfo.totalGems;
+
+        timeTarget.text = target + levelInfo.targetTime + "s";
+
+        if (levelInfo.bestTime == 0)
+        {
+            bestTime.text = best0;
+        }
+        else
+        {
+            bestTime.text = best1 + levelInfo.bestTime.ToString("F2") + sn;
+        }
+
+        levelInfoPanel.SetActive(true);
     }
 
     public void HideInfo()
     {
         levelInfoPanel.SetActive(false);
     }
+
+
+
 }

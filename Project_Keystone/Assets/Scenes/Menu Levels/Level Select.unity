@@ -912,7 +912,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TIME
+  m_Text: 
 --- !u!222 &300242612
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17506,7 +17506,7 @@ PrefabInstance:
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: levelName
-      value: 5- You Better Watch Out
+      value: 5 - You Better Watch Out
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
@@ -17672,7 +17672,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GEMS
+  m_Text: 
 --- !u!222 &1465534059
 CanvasRenderer:
   m_ObjectHideFlags: 0
