@@ -22,7 +22,7 @@ public class MovingPlatform : MonoBehaviour
     {
         platform.position = Vector3.MoveTowards(platform.position, points[currentPoint].position, movespeed * Time.deltaTime);
 
-        if (Vector3.Distance(platform.position, points[currentPoint].position)< 0.5f)
+        if (Vector3.Distance(platform.position, points[currentPoint].position) < 0.5f)
         {
             currentPoint++;
 
@@ -30,6 +30,10 @@ public class MovingPlatform : MonoBehaviour
             {
                 currentPoint = 0;
             }
+
         }
+
     }
+
+
 }
