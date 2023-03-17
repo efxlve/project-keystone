@@ -96,6 +96,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectToKey: {fileID: 6721959045224431638}
+  PickupEffect: {fileID: 5906957023665636206, guid: 55b1dba889e3ef34dbb9aa0965a8ba0c,
+    type: 3}
   deactivateKey: 1
   keyCollected: 0
 --- !u!61 &6721959045224431639

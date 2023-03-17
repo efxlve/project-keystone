@@ -19526,7 +19526,7 @@ PrefabInstance:
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: targetTime
-      value: 60
+      value: 160
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
@@ -19653,12 +19653,12 @@ PrefabInstance:
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: totalGems
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: targetTime
-      value: 50
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}

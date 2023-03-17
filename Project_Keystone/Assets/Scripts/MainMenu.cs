@@ -34,7 +34,7 @@ public class MainMenu : MonoBehaviour
     {
         MainSound = PlayerPrefs.GetFloat("SoundVolume"); //Ses seviyesi silinmeden önce değerini alıyoruz
         //Debug.Log("Ana ses silinmeden önce: " + MainSound);
-        language = PlayerPrefs.GetString("Language"); //Dil seviyesi silinmeden önce değerini alıyoruz
+        language = PlayerPrefs.GetString("Language"); //Dil seçeneğini silinmeden önce değerini alıyoruz
 
         SceneManager.LoadScene(startScene);
         PlayerPrefs.DeleteAll(); 
@@ -42,7 +42,7 @@ public class MainMenu : MonoBehaviour
         
         PlayerPrefs.SetFloat("SoundVolume", MainSound); //Ses seviyesini geri yüklüyoruz
         //Debug.Log("Ana ses silinmeden sonra: " + MainSound);
-        PlayerPrefs.SetString("Language", language); //Dil seviyesini geri yüklüyoruz
+        PlayerPrefs.SetString("Language", language); //Dil seçeneğini geri yüklüyoruz
 
     }
 

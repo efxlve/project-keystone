@@ -31,7 +31,6 @@ public class Door : MonoBehaviour
              {
                  ObjectToDoor.SetActive(true);
              }
-            Debug.Log("Kapı dokundu");
 
         }
 

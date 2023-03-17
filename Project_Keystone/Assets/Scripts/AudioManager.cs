@@ -34,14 +34,11 @@ public class AudioManager : MonoBehaviour
             AudioListener.volume = PlayerPrefs.GetFloat("SoundVolume");
         }
 
-        //Debug.Log("Ana ses " + AudioListener.volume);
     }
 
     
     void Update()
     {
-        //Debug.Log("Güncel Oyun ses seviyesi : " + AudioListener.volume);
-       // Debug.Log("Güncel SoundVolume ses seviyesi : " + PlayerPrefs.GetFloat("SoundVolume"));
 
 
     }

@@ -6,6 +6,7 @@ public class DoorKey : MonoBehaviour
 {
     public static DoorKey instance;
     public GameObject ObjectToKey;
+    public GameObject PickupEffect;
     
     public bool deactivateKey;
     public bool keyCollected;
@@ -40,8 +41,10 @@ public class DoorKey : MonoBehaviour
             {
                 ObjectToKey.SetActive(true);
             }
-            Debug.Log("Anahtara dokundu");
             keyCollected = true;
+            Instantiate(PickupEffect, transform.position, transform.rotation);
+
+            AudioManager.instance.PlaySFX(7);
         }
 
     }
