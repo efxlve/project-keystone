@@ -62,9 +62,9 @@ public class LSUIController : MonoBehaviour
 
     public void ShowInfo(MapPoint levelInfo)
     {
-        string variableValue = "Turkish";
+        string Language = MainMenu_Languages.Instance.GetLanguage();
 
-        if (variableValue == "Turkish")
+        if (Language == "Turkish")
         {
             ShowInfoTR(levelInfo);
         }

@@ -7,9 +7,22 @@ public class MainMenu_Languages : MonoBehaviour
 {
     [HideInInspector] public List<Text> Texts;
     public List<Language> Languages;
+    public static MainMenu_Languages Instance;
+    
 
     private string selectedLanguage;
     public string SelectedLanguage { get => selectedLanguage; set => selectedLanguage = value; }
+
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
+    public string GetLanguage()
+    {
+        return SelectedLanguage;
+    }
 
     void Start()
     {

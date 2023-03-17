@@ -34,7 +34,7 @@ public class AudioManager : MonoBehaviour
             AudioListener.volume = PlayerPrefs.GetFloat("SoundVolume");
         }
 
-        Debug.Log("Ana ses " + AudioListener.volume);
+        //Debug.Log("Ana ses " + AudioListener.volume);
     }
 
     

@@ -241,7 +241,7 @@ PrefabInstance:
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: targetTime
-      value: 30
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
@@ -5004,12 +5004,12 @@ PrefabInstance:
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: totalGems
-      value: 14
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: targetTime
-      value: 45
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
@@ -17516,7 +17516,7 @@ PrefabInstance:
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: targetTime
-      value: 35
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}

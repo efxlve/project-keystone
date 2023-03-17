@@ -13,6 +13,7 @@ public class MainMenu : MonoBehaviour
     public Button continueButton;
     public Text textContinue;
     public float MainSound;
+    public string language;
 
     private void Awake()
     {
@@ -33,15 +34,15 @@ public class MainMenu : MonoBehaviour
     {
         MainSound = PlayerPrefs.GetFloat("SoundVolume"); //Ses seviyesi silinmeden önce değerini alıyoruz
         //Debug.Log("Ana ses silinmeden önce: " + MainSound);
-        
-        
+        language = PlayerPrefs.GetString("Language"); //Dil seviyesi silinmeden önce değerini alıyoruz
+
         SceneManager.LoadScene(startScene);
         PlayerPrefs.DeleteAll(); 
 
         
         PlayerPrefs.SetFloat("SoundVolume", MainSound); //Ses seviyesini geri yüklüyoruz
         //Debug.Log("Ana ses silinmeden sonra: " + MainSound);
-
+        PlayerPrefs.SetString("Language", language); //Dil seviyesini geri yüklüyoruz
 
     }
 
