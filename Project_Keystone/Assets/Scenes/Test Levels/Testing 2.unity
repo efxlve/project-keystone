@@ -9555,50 +9555,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 547822384}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1886383777 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8115525250971440977, guid: dd8e6931903f06d4db4497d142d8485f,
-    type: 3}
-  m_PrefabInstance: {fileID: 8115525250700179952}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1886383782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886383777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 722524e95b24c4c4f8b0c431ae550df2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!61 &1886383783
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886383777}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.010311633, y: -0.08151652}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.19193724, y: 0.10247711}
-  m_EdgeRadius: 0
 --- !u!1 &1889247710
 GameObject:
   m_ObjectHideFlags: 0
@@ -10390,31 +10346,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8115525250366392133, guid: dd8e6931903f06d4db4497d142d8485f,
-        type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 8115525250366392136, guid: dd8e6931903f06d4db4497d142d8485f,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.032491658
-      objectReference: {fileID: 0}
-    - target: {fileID: 8115525250366392136, guid: dd8e6931903f06d4db4497d142d8485f,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.1875155
-      objectReference: {fileID: 0}
-    - target: {fileID: 8115525250366392136, guid: dd8e6931903f06d4db4497d142d8485f,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: -0.013062775
-      objectReference: {fileID: 0}
-    - target: {fileID: 8115525250366392136, guid: dd8e6931903f06d4db4497d142d8485f,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.1511139
-      objectReference: {fileID: 0}
     - target: {fileID: 8115525250971440977, guid: dd8e6931903f06d4db4497d142d8485f,
         type: 3}
       propertyPath: m_Name
