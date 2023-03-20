@@ -241,7 +241,7 @@ PrefabInstance:
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: targetTime
-      value: 40
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
@@ -4314,12 +4314,12 @@ PrefabInstance:
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: totalGems
-      value: 999
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: targetTime
-      value: 40
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
@@ -5009,7 +5009,7 @@ PrefabInstance:
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: targetTime
-      value: 100
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
@@ -17218,6 +17218,11 @@ PrefabInstance:
       propertyPath: Locked
       value: 
       objectReference: {fileID: 1991449611}
+    - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
+        type: 3}
+      propertyPath: targetTime
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8129642234556670049, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17511,12 +17516,12 @@ PrefabInstance:
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: totalGems
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: targetTime
-      value: 60
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
@@ -17869,12 +17874,12 @@ PrefabInstance:
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: totalGems
-      value: 28
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: targetTime
-      value: 60
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
@@ -19312,6 +19317,11 @@ PrefabInstance:
       propertyPath: totalGems
       value: 17
       objectReference: {fileID: 0}
+    - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
+        type: 3}
+      propertyPath: targetTime
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 8129642234556670049, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19521,12 +19531,12 @@ PrefabInstance:
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: totalGems
-      value: 21
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: targetTime
-      value: 160
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
@@ -19658,7 +19668,7 @@ PrefabInstance:
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
       propertyPath: targetTime
-      value: 140
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}
@@ -19771,6 +19781,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Locked
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1055143788785757553, guid: 3ae2199fc28028742a35717fc5126a77,
+        type: 3}
+      propertyPath: targetTime
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8129642234556670049, guid: 3ae2199fc28028742a35717fc5126a77,
         type: 3}

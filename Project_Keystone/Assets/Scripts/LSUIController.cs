@@ -12,8 +12,10 @@ public class LSUIController : MonoBehaviour
     private bool shouldFadeToBlack, shouldFadeFromBlack;
 
     public GameObject levelInfoPanel;
-
+    
     public Text levelName, gemsFound, gemsTarget, bestTime, timeTarget;
+
+    
 
     private void Awake()
     {
@@ -62,8 +64,8 @@ public class LSUIController : MonoBehaviour
 
     public void ShowInfo(MapPoint levelInfo)
     {
-        string Language = MainMenu_Languages.Instance.GetLanguage();
-
+        //string Language = MainMenu_Languages.Instance.GetLanguage();
+        string Language = PlayerPrefs.GetString("Language");
         if (Language == "Turkish")
         {
             ShowInfoTR(levelInfo);
@@ -73,6 +75,8 @@ public class LSUIController : MonoBehaviour
         {
             ShowInfoEN(levelInfo);
         }
+
+        
     }
 
     public void ShowInfoEN(MapPoint levelInfo)

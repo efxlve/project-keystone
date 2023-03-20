@@ -48908,6 +48908,11 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 393193847975293180, guid: 6307cc4b53c5aa3449c26777106739d5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.56
+      objectReference: {fileID: 0}
     - target: {fileID: 2269733487670473358, guid: 6307cc4b53c5aa3449c26777106739d5,
         type: 3}
       propertyPath: m_LocalPosition.x
