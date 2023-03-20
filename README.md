@@ -4,7 +4,7 @@
 
 <h1>Release notes</h1>
 
-<h3>Version 0.0.1 - alpha</h3>
+<h3>Version 1.0</h3>
 
 <h6>Features</h6>
 
